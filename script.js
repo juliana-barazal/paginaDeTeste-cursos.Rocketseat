@@ -1,95 +1,96 @@
 const perguntas = [
     {
-        pergunta: "O que significa 'DOM' em JavaScript?",
+        pergunta: "Qual jogador do São Paulo Futebol Clube recebeu o apelido de 'Deus'?",
         respostas: [
-            "Document Object Model",
-            "Data Object Model",
-            "Design Object Model"
+            "Kaká",
+            "Lugano",
+            "Rogério Ceni"
+        ],
+        correta: 1
+    },
+    {
+        pergunta: "Quem foi o primeiro técnico do São Paulo Futebol Clube?",
+        respostas: [
+            "Antônio Franco de Siqueira",
+            "Rubens Salles",
+            "Antônio Ferreira"
         ],
         correta: 0
     },
     {
-        pergunta: "Qual é a função principal do operador '===' em JavaScript?",
+        pergunta: "Em que ano o São Paulo Futebol Clube conquistou seu primeiro Campeonato Brasileiro?",
         respostas: [
-            "Comparação de valores sem levar em conta o tipo de dados",
-            "Comparação de valores levando em conta o tipo de dados",
-            "Atribuição de valores"
-        ],
-        correta: 1
-    },
-    {
-        pergunta: "O que é uma variável em JavaScript?",
-        respostas: [
-            "Um tipo de dado primitivo",
-            "Um objeto que armazena valores",
-            "Uma função incorporada"
-        ],
-        correta: 1
-    },
-    {
-        pergunta: "Como declarar uma função em JavaScript?",
-        respostas: [
-            "function myFunction()",
-            "var myFunction = function()",
-            "both A and B"
+            "1971",
+            "1975",
+            "1977"
         ],
         correta: 2
     },
     {
-        pergunta: "Qual é a diferença entre 'let' e 'const' para declarar variáveis?",
+        pergunta: "Quantos títulos da Copa Libertadores da América o São Paulo Futebol Clube conquistou consecutivamente?",
         respostas: [
-            "'let' é usado para variáveis que não podem ser alteradas, 'const' para variáveis que podem",
-            "'let' é usado para variáveis de escopo global, 'const' para variáveis de escopo local",
-            "'let' permite reatribuição, 'const' não permite"
-        ],
-        correta: 2
-    },
-    {
-        pergunta: "O que é o conceito de 'hoisting' em JavaScript?",
-        respostas: [
-            "Levantar objetos no DOM",
-            "Elevação de declarações para o topo do escopo",
-            "Animações suaves em páginas da web"
+            "2",
+            "3",
+            "4"
         ],
         correta: 1
     },
     {
-        pergunta: "Qual é a finalidade do método 'parseInt()' em JavaScript?",
+        pergunta: "Qual foi o placar da partida que deu ao São Paulo Futebol Clube o título da Copa Intercontinental em 1992?",
         respostas: [
-            "Converter uma string em um número inteiro",
-            "Arredondar um número decimal para o inteiro mais próximo",
-            "Calcular a parte fracionária de um número"
+            "1-0 contra o Barcelona",
+            "2-1 contra o Milan",
+            "3-2 contra o Liverpool"
         ],
         correta: 0
     },
     {
-        pergunta: "O que é um closure em JavaScript?",
+        pergunta: "Quem foi o técnico do São Paulo Futebol Clube na conquista do Mundial de Clubes da FIFA em 2005?",
         respostas: [
-            "Um bloco de código que é sempre executado",
-            "Um objeto que armazena referências a variáveis fora de seu escopo",
-            "Uma função que pode acessar variáveis em seu escopo lexical"
+            "Oswaldo de Oliveira",
+            "Emerson Leão",
+            "Paulo Autuori"
         ],
         correta: 2
     },
     {
-        pergunta: "Como se verifica se uma variável é do tipo array em JavaScript?",
+        pergunta: "Qual jogador do São Paulo Futebol Clube recebeu o prêmio de melhor jogador da Copa Libertadores da América em 2005?",
         respostas: [
-            "Utilizando o operador 'typeof'",
-            "Usando o método 'isArray()'",
-            "Ambos A e B estão corretos"
-        ],
-        correta: 1
-    },
-    {
-        pergunta: "O que é o conceito de 'event bubbling' em JavaScript?",
-        respostas: [
-            "Propagação de eventos do elemento pai para o elemento filho",
-            "Propagação de eventos do elemento filho para o elemento pai",
-            "Cancelamento de eventos durante a fase de borbulhamento"
+            "Mineiro",
+            "Amoroso",
+            "Cicinho"
         ],
         correta: 0
+    },
+    {
+        pergunta: "Qual foi o primeiro jogador estrangeiro a atuar pelo São Paulo Futebol Clube?",
+        respostas: [
+            "Pedro Rocha",
+            "Paraguay",
+            "Gino Orlando"
+        ],
+        correta: 2
+    },
+    {
+        pergunta: "Quantas vezes o São Paulo Futebol Clube venceu a Copa Sul-Americana?",
+        respostas: [
+            "1 vez",
+            "2 vezes",
+            "3 vezes"
+        ],
+        correta: 0
+    },
+    {
+        pergunta: "Qual jogador do São Paulo Futebol Clube foi o artilheiro da Copa Libertadores da América em 1993?",
+        respostas: [
+            "Raí",
+            "Müller",
+            "Palhinha"
+        ],
+        correta: 1
     }
 ];
+
 
 const quiz = document.querySelector('#quiz')
 const template = document.querySelector('template')
